@@ -1,3 +1,4 @@
+USE dormdimensions;
 DROP TABLE IF EXISTS burtonInfo;
 CREATE TABLE burtonInfo (
   Building, text
@@ -8,6 +9,7 @@ CREATE TABLE burtonInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS cassatInfo;
 CREATE TABLE cassatInfo (
   Building, text
@@ -18,6 +20,7 @@ CREATE TABLE cassatInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS davisInfo;
 CREATE TABLE davisInfo (
   Building, text
@@ -28,6 +31,7 @@ CREATE TABLE davisInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS evansInfo;
 CREATE TABLE evansInfo (
   Building, text
@@ -38,6 +42,7 @@ CREATE TABLE evansInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS goodhueInfo;
 CREATE TABLE goodhueInfo (
   Building, text
@@ -48,6 +53,7 @@ CREATE TABLE goodhueInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS jamesInfo;
 CREATE TABLE jamesInfo (
   Building, text
@@ -58,6 +64,7 @@ CREATE TABLE jamesInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS musserInfo;
 CREATE TABLE musserInfo (
   Building, text
@@ -68,6 +75,7 @@ CREATE TABLE musserInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS myersInfo;
 CREATE TABLE myersInfo (
   Building, text
@@ -78,6 +86,7 @@ CREATE TABLE myersInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS nourseInfo;
 CREATE TABLE nourseInfo (
   Building, text
@@ -88,6 +97,7 @@ CREATE TABLE nourseInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS severenceInfo;
 CREATE TABLE severenceInfo (
   Building, text
@@ -98,6 +108,7 @@ CREATE TABLE severenceInfo (
   AdjoiningRooms text
 );
 
+USE dormdimensions;
 DROP TABLE IF EXISTS watsonInfo;
 CREATE TABLE watsonInfo (
   Building, text
